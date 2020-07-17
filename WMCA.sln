@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WMCA.Web", "WMCA.Web\", "{AC0DF794-CF39-4DB0-9041-33773C4358B2}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_7873"
+		Debug.AspNetCompiler.PhysicalPath = "WMCA.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_7873\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_7873"
+		Release.AspNetCompiler.PhysicalPath = "WMCA.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_7873\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "7873"
+		SlnRelativePath = "WMCA.Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{7B4E8DA7-895A-4C14-BE50-D9854848EB7E} = {7B4E8DA7-895A-4C14-BE50-D9854848EB7E}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WMCA.Core", "WMCA.Core\WMCA.Core.csproj", "{7B4E8DA7-895A-4C14-BE50-D9854848EB7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC0DF794-CF39-4DB0-9041-33773C4358B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC0DF794-CF39-4DB0-9041-33773C4358B2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B4E8DA7-895A-4C14-BE50-D9854848EB7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B4E8DA7-895A-4C14-BE50-D9854848EB7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B4E8DA7-895A-4C14-BE50-D9854848EB7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B4E8DA7-895A-4C14-BE50-D9854848EB7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC7FD430-2503-4C96-8042-26877C4EBA9F}
+	EndGlobalSection
+EndGlobal

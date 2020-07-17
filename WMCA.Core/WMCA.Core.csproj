@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+	
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="XCOPY /s /y &quot;$(TargetDir)$(ProjectName).*&quot; &quot;$(ProjectDir)\..\$(SolutionName).Web\bin\&quot;" />
+  </Target>
+
+	<ItemGroup>
+		<PackageReference Include="Foolproof" Version="0.9.4518" />
+		<PackageReference Include="Our.Umbraco.DocTypeGridEditor" Version="1.1.0" />
+		<PackageReference Include="UmbracoCms.Core" Version="8.4.1" />
+		<PackageReference Include="UmbracoCms.Web" Version="8.4.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="System.Windows.Forms" />
+	  <Reference Include="Umbraco.Forms.Core">
+	    <HintPath>..\WMCA.Web\Bin\Umbraco.Forms.Core.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Helpers\" />
+	</ItemGroup>
+</Project>
